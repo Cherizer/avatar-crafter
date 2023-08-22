@@ -17,6 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <style>
+      @import url(&apos;https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap&apos;);
+      </style>
     </html>
   )
 }
