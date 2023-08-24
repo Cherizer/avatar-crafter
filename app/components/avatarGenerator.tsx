@@ -13,7 +13,7 @@ const ProfilePictureGenerator: React.FC = () => {
   };
 
   return (
-    <div className="profile-picture">
+    <div className="main-stuff">
         <div className="profile-picture">
             {initialGrid[0].map((_, columnIndex) => (
             <div key={columnIndex} className="column">

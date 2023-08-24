@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <link rel="preload" href="https://fonts.googleapis.com" />
         <link rel="preload" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:wght@500&display=swap" rel="stylesheet" />
       </head>
       <body className={inter.className}>{children}</body>
       
