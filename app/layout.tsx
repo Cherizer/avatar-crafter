@@ -22,6 +22,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="preload" href="https://fonts.googleapis.com" />
         <link rel="preload" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Poppins:wght@500&display=swap" rel="stylesheet" />
       </head>
       <body className={inter.className}>{children}</body>

@@ -37,6 +37,9 @@ const ProfilePictureGenerator: React.FC = () => {
 
   return (
     <div className="main-stuff">
+        <h1 className="mobile-main-title">
+                Github Style Profile Picture Generator
+        </h1>
         <div className="profile-picture" id="avatar" ref={ref}>
             {initialGrid[0].map((_, columnIndex) => (
             <div key={columnIndex} className="column">
