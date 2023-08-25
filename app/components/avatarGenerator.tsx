@@ -26,9 +26,21 @@ const ProfilePictureGenerator: React.FC = () => {
             </div>
             ))}
         </div>
-        <button className="generate-button" onClick={generateNewGrid}>
-            Generate New
-        </button>
+
+        <div className="settings">
+            <h1 className="main-title">
+                Github Style Profile Picture Generator
+            </h1>
+
+            <button className="button generate-button" onClick={generateNewGrid}>
+                Generate New
+            </button>
+
+            <button className="button download-button">
+                <span className="material-symbols-outlined">download</span>
+                Download
+            </button>
+        </div>
     </div>
   );
 };
