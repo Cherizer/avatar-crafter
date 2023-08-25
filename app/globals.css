@@ -5,8 +5,8 @@
 
 /* VARIABLES */
 :root {
-  --background-white: 255 255 255;
   --main-pink: 224 33 138;
+  --background-white: 255 255 255;
   
   --main-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   --small-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 
