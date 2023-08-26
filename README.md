@@ -4,6 +4,20 @@
   <h1>Avatar Crafter</h1>
 </div>
 
+<div align="center">
+  Welcome to Avatar Crafter, a small project built with <a href="https://nextjs.org/">Next.js</a>, <a href="https://tailwindcss.com">Tailwind CSS</a>, and <a href="https://www.typescriptlang.org">TypeScript</a>.
+  Avatar Crafter is a Github inspired profile picture generator made to serve no purpose or whatsoever and only waste the creators' time and money in hosting costs. Hope you find this tool more useful than me!
+</div>
+
+<div align="center">
+  <!-- TO ADD more Badges use -> https://shields.io/ -->
+
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/webdevcody/code-racer">
+  <img alt="Repo License" src="https://img.shields.io/github/license/webdevcody/code-racer">
+  <img alt="Website Status" src="https://img.shields.io/website?url=https%3A%2F%2Fcode-racer-eight.vercel.app">
+
+  </div>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
