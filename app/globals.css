@@ -20,7 +20,7 @@
       box-shadow: var(--small-shadow);
   
       .navbar-title {
-        font-size: 42pt;
+        font-size: 32pt;
       }
     }
     .main-stuff {
@@ -28,6 +28,7 @@
       align-items: center;
 
       .mobile-main-title {
+        text-align: center;
         font-family: 'Itim', cursive;
         font-size: 32pt;
         margin-bottom: 5px;
@@ -38,8 +39,10 @@
 
         .column{
           .cell{
-            width: 100px;
-            height: 100px;
+            width: 60px;
+            height: 60px;
+            max-width: 12vw;
+            max-height: 12vw;
           }
         }
       }
@@ -52,7 +55,8 @@
         }
         .generate-button{
           height: 100px;
-          min-width: 400px;
+          width: 400px;
+          max-width: 90vw;
           width: 60vw;
           font-size: 32pt;
         }
@@ -144,7 +148,7 @@ body {
     display: flex;
     background-color: rgb(var(--background-white));
     padding: 150px 40px 0px 40px;
-    width: 100%;
+    width: 100vw;
 
     .profile-picture{
       display: flex;
