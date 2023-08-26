@@ -1,3 +1,9 @@
+<div align="center" >
+  <img src="./public/icon.png" width="60" alt="avatar-crafter-logo">
+  <br/>
+  <h1>Avatar Crafter</h1>
+</div>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
