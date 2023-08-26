@@ -13,6 +13,7 @@
   <!-- TO ADD more Badges use -> https://shields.io/ -->
 
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors-anon/Cherizer/avatar-crafter">
+  <img alt="Repo License" src="https://img.shields.io/github/license/Cherizer/avatar-crafter">
   <img alt="Website Status" src="https://img.shields.io/website?url=https%3A%2F%2Favatarcrafter.net/">
 
   </div>
