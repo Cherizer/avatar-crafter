@@ -80,7 +80,7 @@
     .navbar {
       height: 60px;
       box-shadow: var(--small-shadow);
-  
+
       .navbar-title {
         font-size: 32pt;
       }
@@ -136,10 +136,18 @@ body {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
 
+    .side{
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      margin: 0px 30px;
+    }
     .navbar-title {
+      margin: 0;
       color: rgb(var(--main-pink));
       font-family: 'Cherry Bomb One', sans-serif;
     }
@@ -166,6 +174,42 @@ body {
       font-family: 'Poppins', sans-serif;
       display: flex;
       flex-direction: column;
+
+      .color-picker-button{
+        display: flex;
+        align-items: center;
+        border-style: solid;
+        border-width: 2px;
+        color: rgb(var(--main-pink));
+        background-color: rgb(var(--background-white));
+        border: 2px solid rgb(var(--main-pink));
+        font-size: 16pt;
+
+        .material-symbols-outlined{
+          font-size: 16pt;
+        }
+        .color-picker-title{
+
+        }
+        .color-picker-wrapper{
+          margin-left: 10px;
+          width: 30px;
+          height: 30px;
+          border-radius: 10px;
+          overflow: hidden;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+          .color-picker {
+            border: 0;
+            padding: 0;
+            width: 200%;
+            height: 200%;
+            cursor: pointer;
+            transform: translate(-25%, -25%)
+          }
+        }
+      }
+      
 
       .button{
         border-radius: 20px;

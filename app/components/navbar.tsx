@@ -1,7 +1,15 @@
 function Navbar() {
     return (
         <div className="navbar">
-            <h1 className="navbar-title">AvatarCrafter</h1>
+            <div className="side"></div>
+            <div>
+                <h1 className="navbar-title">AvatarCrafter</h1>
+            </div>
+            <div className="side">
+                <h1>login</h1>
+            </div>
+            
+            
         </div>
     );
 }
