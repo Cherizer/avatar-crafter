@@ -26,6 +26,7 @@
     .main-stuff {
       flex-direction: column;
       align-items: center;
+      padding: 100px 40px 0px 40px;
 
       .mobile-main-title {
         text-align: center;
@@ -57,14 +58,14 @@
           height: 100px;
           width: 400px;
           max-width: 90vw;
-          width: 60vw;
-          font-size: 32pt;
+          width: 70vw;
+          font-size: 24pt;
         }
         .download-button{
           justify-content: center;
           height: 70px;
-          width: 50vw;
-          font-size: 28pt;
+          width: 60vw;
+          font-size: 22pt;
 
           .material-symbols-outlined{
             font-size: 28pt;
@@ -86,6 +87,8 @@
       }
     }
     .main-stuff{
+      padding: 150px 40px 0px 40px;
+
       .mobile-main-title {
         display: none;
       }
@@ -155,7 +158,6 @@ body {
   .main-stuff {
     display: flex;
     background-color: rgb(var(--background-white));
-    padding: 150px 40px 0px 40px;
     width: 100vw;
 
     .profile-picture{
