@@ -6,7 +6,7 @@ function Navbar() {
                 <h1 className="navbar-title">AvatarCrafter</h1>
             </div>
             <div className="side">
-                <h1>login</h1>
+                <h1>login temp</h1>
             </div>
             
             
